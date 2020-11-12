@@ -57,5 +57,26 @@ $ jupyter-lab
 # Open http://localhost:8888/lab in browser
 #  Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
+## Anaconda
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#removing-an-environment
 
+### To create an environment:
+
+```bash
+conda create --name myenv
+# To create an environment with a specific version of Python:
+conda create -n myenv python=3.6
+```
+
+### To see a list of all of your environments, in your terminal window or an Anaconda Prompt, run:
+
+```bash
+conda info --envs
+```
+
+### To activate an environment: 
+
+```bash
+conda activate myenv
+```
 
